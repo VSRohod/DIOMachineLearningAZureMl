@@ -9,11 +9,11 @@
 
 <h1>Step by Step</h1>
 <ul>
-<li>-Logar no site da azure.</li>
-<li>-Dentro da página home, acesse a opção "Create a resource".</li>
-<li>-Acesse a categoria "AI + Machine Learning".</li>
-<li>-Acesse a ferramenta "Azure Machine Learning" e selecione o botão "create.</li>
-<li>-Aperte o botão "Create new" na aba Resource group (obs: pode colocar como termo "LABAI-900").</li>
+<li>Logar no site da azure.</li>
+<li>Dentro da página home, acesse a opção "Create a resource".</li>
+<li>Acesse a categoria "AI + Machine Learning".</li>
+<li>Acesse a ferramenta "Azure Machine Learning" e selecione o botão "create.</li>
+<li>Aperte o botão "Create new" na aba Resource group (obs: pode colocar como termo "LABAI-900").</li>
 
 <h3>Worspace details</h3>
 <li>* Name = laboratorioai900</li>
@@ -23,12 +23,12 @@
 <li>* Application insights = generatedByName</li>
 <li>* Container Registry = None</li>
 
-<li>-Clique "Examine + Create".</li>
-<li>-Clique em "Create".</li>
-<li>-Assim que a implantação estiver concluída clique em "Go to resource".</li>
-<li>-Dentro do lab clique em "Launch studio"</li>
-<li>-Dentro do estúdio, nós iremos procurar pela opção "ML automatizado".</li>
-<li>-Após selecionada a opção, clique em "Novo trabalho de ML automatizado".</li>
+<li>Clique "Examine + Create".</li>
+<li>Clique em "Create".</li>
+<li>Assim que a implantação estiver concluída clique em "Go to resource".</li>
+<li>Dentro do lab clique em "Launch studio"</li>
+<li>Dentro do estúdio, nós iremos procurar pela opção "ML automatizado".</li>
+<li>Após selecionada a opção, clique em "Novo trabalho de ML automatizado".</li>
 
 <h3>Configurações básicas</h3>
 <li>* Nome do trabalho = mslearn-bike-automl</li>
@@ -36,20 +36,20 @@
 <li>* Descrição = Aprendizado de máquina automatizado para previsão de aluguel de bicicletas</li>
 <li>* Marcas = "None"</li>
 
-<li>-Clique em "Avançar".</li>
-<li>-Em "Tipo de tarefa e dados" selecionaremos o tipo de tarefa como "Regressão".</li>
-<li>-Na aba de "Selecionar os dados" aperte em criar.</li>
+<li>Clique em "Avançar".</li>
+<li>Em "Tipo de tarefa e dados" selecionaremos o tipo de tarefa como "Regressão".</li>
+<li>Na aba de "Selecionar os dados" aperte em criar.</li>
 
 <h3>Definir o nome e o tipo do ativo de dados</h3>
 <li>* Nome = alugueldebicicletas</li>
 <li>* Descrição = dados históricos de aluguel de bicicletas</li>
 <li>* Tipo = tabular</li>
 
-<li>-Clique em "Avançar".</li>
-<li>-Em "Escolha uma fonte para o ativo de dados", selecione a opção "De arquivos da Web".</li>
-<li>-Clique em "Avançar".</li>
-<li>-Insira na textarea "URL da Web" o link "https://aka.ms/bike-rentals".</li>
-<li>-Clique em "Avançar".</li>
+<li>Clique em "Avançar".</li>
+<li>Em "Escolha uma fonte para o ativo de dados", selecione a opção "De arquivos da Web".</li>
+<li>Clique em "Avançar".</li>
+<li>Insira na textarea "URL da Web" o link "https://aka.ms/bike-rentals".</li>
+<li>Clique em "Avançar".</li>
 
 <h3>Configurações</h3>
 <li>* Formato do arquivo = Delimitado</li>
@@ -58,11 +58,11 @@
 <li>* Cabeçalhos de coluna = Somente o primeiro arquivo tem cabeçalhos</li>
 <li>*Ignorar linhas = Nenhuma</li>
 
-<li>-Clique em "Avançar".</li>
-<li>-Clique em "Avançar" novamente.</li>
-<li>-Clique em "Criar".</li>
-<li>-Na aba "Tipo de tarefa e dados" selecione a tarefa regressão e selecione no "Selecionar os dados" a opção "alugueldebicicletas"</li>
-<li>-Clique em "Avançar".</li>
+<li>Clique em "Avançar".</li>
+<li>Clique em "Avançar" novamente.</li>
+<li>Clique em "Criar".</li>
+<li>Na aba "Tipo de tarefa e dados" selecione a tarefa regressão e selecione no "Selecionar os dados" a opção "alugueldebicicletas"</li>
+<li>Clique em "Avançar".</li>
 
 <h3>Configurações de tarefas</h3>
 <li>* Tipo de tarefa = Regressão</li>
@@ -98,17 +98,17 @@
 <li>* Tamanho da máquina virtual = Standard_DS3_v2 (4 núcleo(s), 14GB de RAM, 28 GB de armazenamento, $0.29/hr)</li>
 <li>* Número de Instâncias = 1</li>
 
-<li>-Clique em "Enviar trabalho de treinamento".</li>
-<li>-Espere o processo finalizar.</li>
-<li>-Finalizado o processo podemos visitar a aba "Tarefas (Jobs)" no menu lateral e procurar por "mslearn-bike-rentals"</li>
-<li>-Clicando nele veremos todo o histórico de como ele foi concluído!</li>
-<li>-Vamos visitar a aba "Modelos" no menu lateral</li>
+<li>Clique em "Enviar trabalho de treinamento".</li>
+<li>Espere o processo finalizar.</li>
+<li>Finalizado o processo podemos visitar a aba "Tarefas (Jobs)" no menu lateral e procurar por "mslearn-bike-rentals"</li>
+<li>Clicando nele veremos todo o histórico de como ele foi concluído!</li>
+<li>Vamos visitar a aba "Modelos" no menu lateral</li>
 
 Obs : caso não apareça o modelo!
 <li>-Voltando para a opção "ML automatizado" e clicando em "mslearn-bike-automl"</li>
-<li>-Visite a opção "Modelos + trabalhos filho"</li>
-<li>-Selecione a opção "MaxAbsScaler,LightGBM"</li>
-<li>-Clique em implantar e logo em seguida selecione a opção "Serviço Web"</li>
+<li>Visite a opção "Modelos + trabalhos filho"</li>
+<li>Selecione a opção "MaxAbsScaler,LightGBM"</li>
+<li>Clique em implantar e logo em seguida selecione a opção "Serviço Web"</li>
 <h3>Implantar um modelo</h3>
 <li>* Nome = predict-rentals</li>
 <li>* Descrição = Lab da DIO</li>
@@ -120,4 +120,3 @@ Obs : caso não apareça o modelo!
 
 O resultado dos pontos de extremidade serão anexados dentro do Json anexado ao repositório!
 </ul>
-<!-- https://github.com/toniacprado/DIO-Trabalhando-com-Machine-Learning-na-Pratica-no-Azure-ML SOLUÇÃO PARA A FALTA DO MODELO -->
